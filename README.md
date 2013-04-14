@@ -1,4 +1,1 @@
-mac
-===
-
-Get Localization for Mac BETA
+See http://getlocalization.github.io/mac/ for details
