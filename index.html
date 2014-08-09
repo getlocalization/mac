@@ -89,6 +89,15 @@ Actual error message is <i>"interface builder could not open the document becaus
   <p><code>sudo xcode-select -s /Applications/Xcode.app</code></p>
 </p>
 
+<h4>I have added a new XIB but it's not uploaded to Get Localization</h4>
+<p>You most likely forgot to set English localization to Localizable.strings setting. To fix this, first move the XIB/storyboard
+  from Base.lproj back to the original folder. Add the XIB/storyboard to the project from this new location (just drag'n'drop it
+  to Xcode) and then remove the obsolete version. Now choose "Localize" again, check English and choose Localizable.strings
+  and it should work fine.
+</p>
+</p>
+
+
 <h3>Support, contact and bug reporting</h3>
 
 <p><a href="http://support.getlocalization.com/">Create a support ticket</a></p>
